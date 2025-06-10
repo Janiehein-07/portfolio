@@ -16,27 +16,32 @@
   </nav>
 
   <header>
-    <h1>Hi, I'm [Your Name]</h1>
+    <h1>Hi, I'm Janie Hein JK</h1>
     <img src="portfolio.jpg" alt="Janie" width="150" height="150" style="border-radius: 50%; margin-top: 1rem;" />
     <p>Aspiring Web Developer</p>
   </header>
 
-  <section id="about">
+  <section id="about" class="hidden">
     <h2>About Me</h2>
     <p>I am passionate about web development and eager to learn more!</p>
   </section>
 
-  <section id="projects">
+  <section id="projects" class="hidden">
     <h2>My Projects</h2>
     <ul>
-      <li>Project 1 - Coming Soon</li>
-      <li>Project 2 - Coming Soon</li>
+      <li>Project 1 - Wifi Controlling Robot Using NODEMCU</li>
+      <li>Project 2 - Automatic Car Parking System</li>
     </ul>
   </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: yourname@example.com</p>
+  <section id="contact" class="hidden">
+  <h2>Contact Me</h2>
+  <form action="https://formsubmit.co/janiehein13@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Janie" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
   </section>
 
   <script src="script.js"></script>
