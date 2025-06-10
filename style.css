@@ -126,4 +126,13 @@ nav ul {
   opacity: 1;
   transform: translateY(0);
 }
+/* Style for list sections (Work, Skills) */
+section ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+section li {
+  margin-bottom: 1rem;
+}
 
